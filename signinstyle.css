@@ -1,0 +1,54 @@
+/* Form container styling */
+.form-signin {
+  width: 100%;
+  max-width: 400px; /* compact size */
+  margin: 0 auto; /* center horizontally */
+  padding: 2rem 1.5rem;
+  background-color: transparent; /* blends with page */
+  border-radius: 0;
+}
+
+/* Center the cassette icon inside the form */
+.icon-container {
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  margin-bottom: 1rem; /* spacing between icon and title */
+}
+
+.cassette {
+  width: 48px;
+  height: 48px;
+  color: #7a5a3d; /* optional theme color */
+}
+
+/* Input spacing tweaks */
+.form-floating input {
+  height: 50px; /* easier to click */
+}
+
+/* Button theme */
+.btn-primary {
+  background-color: #7a5a3d;
+  border-color: #7a5a3d;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #b38a62;
+  border-color: #b38a62;
+}
+
+/* Footer text */
+.text-body-secondary {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.form-signin {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
